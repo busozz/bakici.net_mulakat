@@ -1,0 +1,157 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 300px;
+  height: 200px;
+  margin-left: 500px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-light:hover {
+  background-color: #e2e6ea;
+  border-color: #e2e6ea;
+}
+
+.btn-dark {
+  background-color: #292b2c;
+  border-color: #292b2c;
+}
+
+.btn-dark:hover {
+  background-color: #1c2324;
+  border-color: #1c2324;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 2px;
+}
+
+.btn-lg {
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  border-radius: 4px;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-round {
+  border-radius: 50%;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.input-group-addon {
+  width: 50px;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.input-group-addon.input-group-addon-right {
+  border-radius: 0 4px 4px 0;
+}
+
+.input-group-content {
+  display: table-cell;
+  padding-left: 12px;
+  border-radius: 0 4px 4px 0;
+}
+
+.form-label {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form-control-file {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  padding: 8px;
+  border: 1px solid #ddd;
+
+}
